@@ -1,0 +1,21 @@
+body, html {
+    background-color: black;
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("./assets/bg.jpeg");
+    min-height: 1600px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: auto;
+}
+
+.main-content{
+    background-color: black;
+    opacity: 80%;
+    min-height: inherit;
+    margin: 0 10%;
+}
